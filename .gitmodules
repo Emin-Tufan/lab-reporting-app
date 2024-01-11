@@ -1,0 +1,3 @@
+[submodule "lab-reporting-app-frontend"]
+	path = lab-reporting-app-frontend
+	url = https://github.com/Emin-Tufan/lab-reporting-app-frontend
