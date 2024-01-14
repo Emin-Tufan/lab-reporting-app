@@ -70,7 +70,7 @@ public class PatientServiceImpl implements PatientService {
     }
 
     @Override
-    public Page<PatientResponse> getPatients(String name, String surName, Pageable pageable) {//
+    public Page<PatientResponse> getPatients(String name, String surName, Pageable pageable) {
         ModelMapper modelMapper = modelMapperConfig.modelMapper();
         return patientRepository.getPatientsFiltered(name, surName, pageable)
                 .map(patient -> modelMapper.map(patient, PatientResponse.class));
