@@ -36,7 +36,7 @@ Projeyi çalıştırmak için JAVA version 17 yüklü olmalı.
 git clone https://github.com/Emin-Tufan/lab-reporting-app.git
 ```
 
-2. Uygulama dizinine girin `lab-reporting-app-backend`
+2. Uygulama dizinine girin `lab-reporting-app`
    ```bash
    cd lab-reporting-app-backend
    ```
