@@ -38,7 +38,7 @@ git clone https://github.com/Emin-Tufan/lab-reporting-app.git
 
 2. Uygulama dizinine girin `lab-reporting-app`
    ```bash
-   cd lab-reporting-app-backend
+   cd lab-reporting-app
    ```
 
 3. Spring boot uygulamasını başlatın:
